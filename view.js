@@ -22,7 +22,7 @@ var matcherView = {
 			var card = this.model.cards[i];
 			$cardDiv= $('<div><div class="name">' + card.value + '</div></div>');
 			$cardDiv.addClass('card')
-			$cardDiv.attr('id', 'card-" + card.id);
+			$cardDiv.attr('id', 'card-' + card.id);
 			$cardDiv.data('card-id', card.id);
 			this.$grid.append( $cardDiv );
 		}
