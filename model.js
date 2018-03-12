@@ -45,6 +45,10 @@ matcherModel = {
 		}
 	},
 
+	sameCard: function(id){
+		return this.selectedCard && this.selectedCard.id === id;
+	},
+
 	getCard: function(id){
 		for( var i in this.cards){
 			if( this.cards[i].id === id ) return this.cards[i];

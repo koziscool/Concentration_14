@@ -10,7 +10,7 @@ var matcherController = {
 	},
 
 	selectCard: function(id){
-		if( this.selecting || this.model.selectedCard.id === id ) return;
+		if( this.selecting || this.model.sameCard(id) ) return;
 		this.selecting = true;
 
 		if( this.model.selectedCard ) {
