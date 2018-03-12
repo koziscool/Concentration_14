@@ -22,3 +22,8 @@
 	display: inline;
 	font-weight: bold;
 }
+
+.form-container{
+	margin: 0 auto;
+	text-align: center;
+}
