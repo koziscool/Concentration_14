@@ -26,7 +26,7 @@ var matcherView = {
 			$cardDiv.data('card-id', card.id);
 			this.$grid.appendChild( $cardDiv );
 		}
-	}
+	},
 
 	updateGameView: function() {},
 };

@@ -4,7 +4,7 @@ matcherModel = {
 	cards: [],
 	cardValues = [ "A", "B", "C", "D", "E", "F", "G", "H", "I", "J" ],
 	currentId: 1,
-	totalCards: 0
+	totalCards: 0,
 
 	init: function( size ) {
 		this.size = size || this.size;
