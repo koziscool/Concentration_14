@@ -1,7 +1,8 @@
 
 
 .game-info-container{
-	background-color: #DDD;
+	height: 80px;
+	background-color: gray;
 	display: block;
 }
 
@@ -13,5 +14,4 @@
 
 .section div{
 	display: inline;
-
 }
