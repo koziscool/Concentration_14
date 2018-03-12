@@ -6,6 +6,8 @@ matcherModel = {
 	currentId: 1,
 	totalCards: 0,
 
+	selectedCard: null;
+
 	init: function( size ) {
 		this.size = size || this.size;
 		var numPairs = Math.pow( this.size, 2) / 2;
@@ -41,6 +43,17 @@ matcherModel = {
 			this.cards[currentIndex] = this.cards[rand];
 			this.cards[rand] = temp;
 		}
+	},
+
+	getCard: function(id){
+		for( var i in this.cards){
+			if( this.cards[i].id === id ) return this.cards[i];
+		}
+		return null;
+	},
+
+	setSelectedCard: function(id){
+		this.selectedCard= this.getCard(id)
 	},
 
 }
