@@ -27,3 +27,17 @@
 	margin: 0 auto;
 	text-align: center;
 }
+
+.card{
+	background-color: lightyellow;
+	height: 70px;
+	transition: all 0.5;
+	transform: rotateY(180deg);
+}
+
+.name{
+	font-weight: bold;
+	text-align: center;
+	transition: all 0.5;
+	transform: rotateY(180deg);
+}
