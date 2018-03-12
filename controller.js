@@ -10,9 +10,9 @@ var matcherController = {
 	},
 
 	selectCard: function(id){
-		console.log("here");
 		if( this.selecting || this.model.sameCard(id) ) return;
 		this.selecting = true;
+		console.log("here");
 		this.view.revealCard(id);
 
 		if( this.model.selectedCard ) {
