@@ -24,7 +24,7 @@ var matcherView = {
 			$cardDiv.addClass('card')
 			$cardDiv.attr('id', card.id);
 			$cardDiv.data('card-id', card.id);
-			this.$grid.appendChild( $cardDiv );
+			this.$grid.append( $cardDiv );
 		}
 	},
 
