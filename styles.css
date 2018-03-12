@@ -14,6 +14,7 @@
 	position: relative;
 	top: 10px;
 	color: #DDD;
+	float: left;
 }
 
 .section div{
