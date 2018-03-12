@@ -29,9 +29,16 @@ var matcherView = {
 	},
 
 	revealCard: function(id){
-		console.log("koz");
-
 		$("#card-" + id).addClass('revealed');
+	},
+
+	setCorrect: function(id){
+		$("#card-" + id).off('click');
+		$("#card-" + id).addClass('correct');
+	},
+
+	hideCards: function(){
+		$(".card").not('.correct').removeClass('revealed');
 	},
 
 	updateGameView: function() {},

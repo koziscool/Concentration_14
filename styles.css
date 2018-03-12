@@ -48,7 +48,7 @@
 .name{
 	font-size: large;
 	text-align: center;
-	transition: all 0.5;
+	transition: all 0.5s;
 	transform: translateY(60%) rotateY(180deg);
 	backface-visibility: hidden;
 }
