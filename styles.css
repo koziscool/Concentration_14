@@ -49,6 +49,14 @@
 	font-weight: bold;
 	text-align: center;
 	transition: all 0.5;
-	transform: rotateY(180deg);
+	transform: translateY(60%) rotateY(180deg);
 	backface-visibility: hidden;
+}
+
+.revealed{
+	transform: rotateY(0deg);	
+}
+
+.revealed .name{
+	transform: translateY(60%) rotateY(0deg);
 }
