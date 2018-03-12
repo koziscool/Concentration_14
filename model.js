@@ -34,7 +34,7 @@ matcherModel = {
 	shuffle: function() {
 		var currentIndex = this.cards.length, rand, temp;
 		while( currentIndex > 0 ){
-			rand = Math.floor( Math.random * currentIndex );
+			rand = Math.floor( Math.random() * currentIndex );
 			currentIndex--;
 
 			temp = this.cards[ currentIndex ];
