@@ -32,15 +32,15 @@ matcherModel = {
 	},
 
 	shuffle: function() {
-		var currentIndex = this.cards.length, rand, temp;
-		while( currentIndex > 0 ){
-			rand = Math.floor( Math.random * currentIndex );
-			currentIndex--;
+		// var currentIndex = this.cards.length, rand, temp;
+		// while( currentIndex > 0 ){
+		// 	rand = Math.floor( Math.random * currentIndex );
+		// 	currentIndex--;
 
-			temp = this.cards[ currentIndex ];
-			this.cards[currentIndex] = this.cards[rand];
-			this.cards[rand] = temp;
-		}
+		// 	temp = this.cards[ currentIndex ];
+		// 	this.cards[currentIndex] = this.cards[rand];
+		// 	this.cards[rand] = temp;
+		// }
 	},
 
 }
