@@ -16,7 +16,7 @@ var matcherController = {
 
 		if( this.model.selectedCard ) {
 			var selectedId = this.model.selectedCard.id;
-			var isCorrect = this.modelCheckGuess( id );
+			var isCorrect = this.model.CheckGuess( id );
 			this.view.updateGameView();
 			var that = this;
 
