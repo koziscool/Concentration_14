@@ -66,7 +66,7 @@ matcherModel = {
 
 	valueMatch: function(card1, card2){
 		return card1.value === card2.value;
-	}
+	},
 
 	checkGuess: function(id){
 		this.numGuesses++;	
