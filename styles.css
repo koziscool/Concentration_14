@@ -28,7 +28,13 @@
 	text-align: center;
 }
 
+.grid-container{
+	display: block;
+}
+
 .card{
+	border: 1px solid black;
+	display: inline-block;
 	background-color: lightyellow;
 	height: 70px;
 	transition: all 0.5;
@@ -40,4 +46,5 @@
 	text-align: center;
 	transition: all 0.5;
 	transform: rotateY(180deg);
+	backface-visibility: hidden;
 }
