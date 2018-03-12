@@ -1,0 +1,17 @@
+
+
+.game-info-container{
+	background-color: #DDD;
+	display: block;
+}
+
+.section {
+	width: 25%;
+	display: inline-block;
+	color: white;
+}
+
+.section div{
+	display: inline;
+
+}
