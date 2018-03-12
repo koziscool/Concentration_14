@@ -3,7 +3,7 @@ var matcherView = {
 	model: matcherModel,
 
 	init: function() {
-		this.$grid = $("grid-matcher");
+		this.$grid = $("#grid-matcher");
 		this.addCardsToGrid();
 
 		width = 100.0 / this.model.size - 2;
