@@ -30,7 +30,7 @@ var matcherView = {
 
 	revealCard: function(id){
 		$("#card-" + id).addClass('revealed');
-	}
+	},
 
 	updateGameView: function() {},
 };
