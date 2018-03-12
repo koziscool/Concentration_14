@@ -15,8 +15,8 @@ matcherModel = {
 
 	addPair: function() {
 		var value = this.cardValues[ Math.floor( Math.random * this.cardValues.length )];
-		this.cards.push( new Card( this.getId(), value ));
-		this.cards.push( new Card( this.getId(), value ));
+		this.cards.push( new this.Card( this.getId(), value ));
+		this.cards.push( new this.Card( this.getId(), value ));
 		this.totalCards += 2;
 	},
 
